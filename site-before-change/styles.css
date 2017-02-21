@@ -1,0 +1,249 @@
+#page1 {
+	height: 1000px;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(images/earth.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#page2 {
+	height: 1000px;
+	background-image: url(images/forest.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#page3 {
+	height: 1000px;
+	background-image: url(images/1234.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#page4 {
+	height: 1000px;
+	background-image: url(images/birds.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#page5 {
+	height: 1200px;
+	background-image: url(images/trees.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#page6 {
+	height: 700px;
+	background-image: url(images/stars.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+a:link {
+	color: gainsboro;
+}
+a:visited {
+	color: gainsboro;
+}
+a:hover {
+	color: white;
+}
+a {
+	text-decoration: none;
+	font-family: monospace;
+}
+#nav {
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+    top: 0;
+    bottom: auto;
+}
+h1 {
+	font-family: lobster;
+	color: white;
+	font-size: 40px;
+}
+h2 {
+	font-family: monospace;
+	color: white;
+	font-size: 16px;
+}
+.under-text {
+	font-family: monospace;
+	color: #85807F;
+}
+.empty-space {
+	padding: 20px;
+	background-color: none;
+	height: 100px;
+}
+.empty-space2 {
+	background-color: none;
+	height: 10px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: inset;
+    border-width: 1px;
+}
+.circular-border {
+	border-radius: 50%;
+}
+.centred-text {
+	text-align: center;
+	vertical-align: middle;
+	margin: 100px 200px 100px 200px;
+}
+table {
+	font-family: monospace;
+	color: #85807F;
+}
+.table-box {
+	background-color: black;
+	padding: 5px 5px 15px 5px;
+}
+.CVDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.CVDialog:target {
+	opacity:1;
+	pointer-events: auto;
+	overflow-y: auto;
+}
+
+.CVDialog > div {
+	width: 80%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: white;
+}
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+	overflow-y: auto;
+}
+
+.modalDialog > div {
+	width: 60%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: black;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+	background: white;
+	color: black; 
+}
+.header {
+	text-align: center;
+}
+.contact-button {
+	font-family: lobster;
+	color: white;
+	font-size: 16px;
+}
+#contact-box {
+	border: 5px double black;
+	padding: 10px 10px 50px 10px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 30px 30% 30px 30%;
+}
+#projects-box {
+	border: 5px double black;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 30px 30% 30px 30%;
+}
+.CVheader {
+	text-align: center;
+}
+h3 {
+	font-family: Georgia;
+	text-align: center;
+}
+h4 {
+	font-family: Georgia;
+	text-align: left;
+	font-size: 14px;
+}
+.CV {
+	font-family: Georgia;
+	text-align: left;
+	font-size: 12px;
+}
+.textLink:link {
+	color: black;
+}
+.textLink:visited {
+	color: black;
+}
+.textLink:hover {
+	color: gainsboro;
+}
+.textLink{
+	text-decoration: none;
+	font-family: monospace;
+}
